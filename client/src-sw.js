@@ -31,7 +31,7 @@ registerRoute(
   ({request}) => {
     console.log(request);
     return (
-      request.destination === 'style' || request.destination === 'script'
+      request.destination === 'style' || request.destination === 'script' || request.destination === 'worker'
     );
   },
   new StaleWhileRevalidate({
