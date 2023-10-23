@@ -1,9 +1,9 @@
 {
-  "name": "JATE",
+  "name": "JM-TEXT-EDITOR",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
-    "start": "webpack --watch"
+    "start": "webpack --watchAll"
   },
   "author": "2U",
   "license": "UNLICENSED",
